@@ -1,3 +1,41 @@
-h1 {
-    color: aqua;
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: mediumaquamarine;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 45px;
+}
+
+.header-item {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 10px;
+    /* display: inline-block; */
+}
+
+.divider {
+    margin-left: calc(50%-50vw);
+    width: 100vw;
+    color: black;
 }
