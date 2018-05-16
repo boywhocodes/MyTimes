@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
     width: 100%;
     display: flex;
@@ -37,4 +39,26 @@ nav {
     font-weight: bold;
     padding: 20px 10px;
     /* display: inline-block; */
+}
+
+
+/* MAIN CONTENT */
+
+.main-container {
+    display: flex;
+}
+
+.content-large {
+    border: 5px solid black;
+    width: 630px;
+}
+
+.content-medium {
+    border: 5px solid black;
+    width: 300px;
+}
+
+.content-small {
+    border: 5px solid black;
+    width: 240px;
 }
