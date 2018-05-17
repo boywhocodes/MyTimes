@@ -44,13 +44,31 @@ nav {
 
 /* MAIN CONTENT */
 
+
+/* FIRST COLUMN */
+
 .main-container {
     display: flex;
+    justify-content: space-around;
 }
 
-.content-large {
+.column-large {
     border: 5px solid black;
     width: 630px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-story-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url("file:///Users/alexmilbert/Documents/personal/DameofDevelopers/Coding%20McCollum/codecademy/MyTimes/resources/images/champagne-img-story-main.png");
+    z-index: 0;
+}
+
+.lead-story-title {
+    z-index: 1;
 }
 
 .lead-story {
@@ -61,12 +79,16 @@ nav {
     border: 2px solid black;
 }
 
-.content-medium {
+.column-medium {
     border: 5px solid black;
     width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
-.content-small {
+.column-small {
     border: 5px solid black;
     width: 240px;
+    display: flex;
+    flex-direction: column;
 }
