@@ -53,6 +53,14 @@ nav {
     width: 630px;
 }
 
+.lead-story {
+    border: 2px solid black;
+}
+
+.secondary-article {
+    border: 2px solid black;
+}
+
 .content-medium {
     border: 5px solid black;
     width: 300px;
