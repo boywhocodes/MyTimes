@@ -49,7 +49,7 @@ nav {
 
 .main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .column-large {
@@ -127,6 +127,9 @@ nav {
     align-items: center;
     margin: 15px;
 }
+
+
+/* MIDDLE COLUMN */
 
 .column-medium {
     /* border: 5px solid black; */
