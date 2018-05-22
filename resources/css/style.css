@@ -153,6 +153,9 @@ nav {
     z-index: 1;
 }
 
+
+/* SMALL COLUMN */
+
 .column-small {
     /* border: 5px solid black; */
     width: 240px;
@@ -163,5 +166,24 @@ nav {
 .content-image-cookie {
     display: flex;
     height: 230px;
-    background-image: url("file:///Users/alexmilbert/Documents/personal/DameofDevelopers/Coding%20McCollum/codecademy/MyTimes/resources/images/cookie-img-news-bite.png")
+    background-image: url("file:///Users/alexmilbert/Documents/personal/DameofDevelopers/Coding%20McCollum/codecademy/MyTimes/resources/images/cookie-img-news-bite.png");
+}
+
+.news-bites-title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.news-bites {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: dimgray;
+}
+
+.bites {
+    border-bottom: 1px solid black;
+    padding: 11 20;
 }
