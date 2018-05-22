@@ -187,3 +187,14 @@ nav {
     border-bottom: 1px solid black;
     padding: 11 20;
 }
+
+
+/* FOOTER */
+
+footer {
+    background-color: mediumaquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: center;
+}
