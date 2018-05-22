@@ -49,15 +49,19 @@ nav {
 
 .main-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .column-large {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 630px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.lead-story {
+    margin: 15px;
 }
 
 .lead-story-image {
@@ -78,17 +82,24 @@ nav {
 }
 
 .lead-story {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .secondary-article {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin: 15px;
 }
 
 .sub-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.sub-content-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .column-large-content-image {
@@ -100,22 +111,25 @@ nav {
 .content-image-earth {
     display: flex;
     height: 300px;
+    width: 300px;
     background-image: url("file:///Users/alexmilbert/Documents/personal/DameofDevelopers/Coding%20McCollum/codecademy/MyTimes/resources/images/girl-img-story-2.png");
     flex-direction: column;
     align-items: center;
+    margin: 15px;
 }
 
 .content-image-camera {
     display: flex;
     height: 300px;
+    width: 300px;
     background-image: url("file:///Users/alexmilbert/Documents/personal/DameofDevelopers/Coding%20McCollum/codecademy/MyTimes/resources/images/camera-img-story-3.png");
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin: 15px;
 }
 
 .column-medium {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -137,7 +151,7 @@ nav {
 }
 
 .column-small {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 240px;
     display: flex;
     flex-direction: column;
